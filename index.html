@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final JSB04</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <h1 id="tittle" >Stay Healthy</h1>
+    <div class="navbar">
+        <a href="#tittle" class="items" > Home</a>
+        <a href="#WISH" class="items" > About</a>
+        <a href="#HWSH" class="items" > How</a>
+        <a href="#WWNTSH" class="items" > Why </a>				
+    </div>
+    
+    <div>
+        <h2 id="WISH" > What is Stay Healthy ?</h2>
+        <p class="WISHitems" > Stay healthy can simply be understood as a lifestyle that is good for both physical and mental health of a person. For example, having a scientific diet, reasonable sleep, regularly moving, exercising ...</p>
+    </div>
+    <div class="slide" >
+        <h2 id="HWSH" >How We Stay Healthy</h2>
+        <p class="slidetext" > Eat Fruits</p>
+        <p class="slidetext" > Do Exercise</p>
+        <p class="slidetext" > Get Enough Sleep</p>
+        <script>
+            w3.slideshow(".slidetext",3000)
+        </script>
+        <img class="img" src="https://img.freepik.com/free-vector/thumbnail-design-with-many-fruits-table_1308-71717.jpg?w=2000" width="100%"  alt="">
+        <img class="img"  src="https://img.freepik.com/free-vector/gradient-geometric-sport-youtube-thumbnail_23-2148915642.jpg?w=2000" width="100%" alt="">
+        <img class="img"  src="https://www.usagainstalzheimers.org/sites/default/files/styles/xlarge_rectangle/public/2019-03/sleeping-woman-1489600204BQ8_1.jpg?h=4362216e&itok=lN8gPov4" width="100%"  alt="">
+        <script>
+            w3.slideshow(".img", 3000);
+            </script>
+    </div>
+        <h2 id="WWNTSH" > Why We Need To Stay Healthy ?</h2>
+        <div class="Why" >
+            <div class="Whyitems" >
+                <center>
+                <img class="imgitems" id="imgitems1" src="https://img.meta.com.vn/Data/image/2021/08/06/hoang-hon-2.jpg"  width="90%" alt="">
+                <h2 class="textitems" >You will live longer</h2>
+                <p class="textitems" > By following a healthy diet and eating regimen, you will boost your overall health. This will increase your lifespan as your immune system will be better improved. You'll be less likely to get sick and have more energy to do the things you love. A healthy lifestyle will give you a better quality of life. </p>
+                </center>
+            </div>
+            <div class="Whyitems" >
+                <center>
+                <img class="imgitems" id="imgitems2" src="https://kfoods.com/daily-tips/icons/033_03365.jpg"  width="90%" alt="">
+                <h2 class="textitems" >Protect your Sight</h2>
+                <p class="textitems" > This may not be a well-known aspect of living a healthy lifestyle, but your eyesight can be protected by a healthy diet and a proper diet. Better vision as we age can be obtained with regular cardiovascular exercise.</p>
+            </center>   
+            </div>
+            <div class="Whyitems" >
+                <center>
+                <img class="imgitems" id="imgitems3" src="https://media.istockphoto.com/vectors/progress-bar-with-inscription-better-days-loading-and-sun-with-cloud-vector-id1072634124?k=20&m=1072634124&s=612x612&w=0&h=HpqkG03Oaa3vxmOgN3aHB0oSAli3mkh5O2EJsDuig1k="  width="70%" alt="">
+                <h2 class="textitems" >Feel Better About Yourself</h2>
+                <p class="textitems" > One of the main reasons why staying healthy can be of assistance to your life as you grow older. One of the main benefits is that living a healthy lifestyle can make you feel more confident than ever before. Exercising can release hormones to your brain that enhance your mood and provide you with a sense of euphoria.</p>
+            </center>
+            </div>
+        </div>
+        <center>
+        <div class="bar">
+            <a class="baritem" onclick="change1()">  ◀ </a>
+            <a  class="baritem highlight" onclick="change1()" > 1</a>
+            <a  class="baritem" onclick="change2()" > 2 </a>
+            <a  class="baritem" onclick="change3()" > 3</a>
+            <a  class="baritem" onclick="change4()" > 4</a>
+            <a  class="baritem" onclick="change5()" > 5</a>
+            <a  class="baritem" onclick="change6()" > 6</a>
+            <a class="baritem" > ▶ </a>
+        </div>
+        <footer>
+    </center>
+     
+     <a  id="alone1" > +8462632328 </a>      
+     <center>
+        <p id="mes"> Messages</p>
+    </center>
+        <textarea name="txt" id="txt" cols="30" rows="5" ></textarea>
+        <button id="sumbit" onclick="change7()" >Sumbit</button>
+        <div class="contact" >
+            <div  class="contactdiv1">
+                <a  class="contactitems" > Need Help ?</a>
+                <a  class="contactitems" > My Office</a>
+                <a  class="contactitems" > Contact</a>
+         </div> 
+         <div class="contactdiv2" >
+            <p class="contactitems2" > Call us now! </p>
+            <p class="contactitems2" id="add" > 3721 Single Street  Quincy, MA 02169 </p>
+            <a  class="contactitems2" > anlhfs3948@fpt.edu.vn </a>
+         </div>
+        </footer> 
+</body>
+</html>

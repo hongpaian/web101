@@ -1,0 +1,154 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+#tittle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.items{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.navbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #594545;
+    background-size: 100%;
+    margin-top: 1px;
+}
+#WISH{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: 520px;
+    margin-top: 100px;
+}
+.WISHitems{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: 430px;
+    margin-right: 350px;
+    border: 8px solid #9E7676;
+    border-radius: 5%;
+}
+#HWSH{
+    margin-left: 550px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px  ;
+}
+.slidetext{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 620px;
+    margin-right: 550px;
+    border: 6px solid #9E7676;
+    border-radius: 10px;
+}
+#WWNTSH{
+    margin-top: 300px;
+    margin-left: 400px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 60px ;
+}
+.textitems{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Whyitems{
+    width: 33%;
+    
+}
+.Why{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.contact{
+    width: 100%;
+    height: 300px;
+    background-color: #815B5B;
+    margin-top: 100px;
+    
+}
+.contactitems{
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.contactdiv1{
+    display: flex;
+    justify-content: space-around;
+}
+.contactdiv2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contactitems2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#add{
+    margin-left: 200px;
+}
+#alone1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 1180px;
+}
+.bar{
+    margin-top: 50px;
+}
+.baritem{
+    background-color: #594545;
+    padding: 8px 16px ;
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+.baritem:hover {
+    background-color: black;
+    color: #ffff;
+}
+.highlight:hover{
+    background-color: #cccccc;
+    color: black;
+}
+#mes{
+    margin-top: 100 px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px
+    
+}
+#txt{
+    margin-left: 400px;
+    margin-top:20px;
+    width: 50%;
+    height: 300px;
+}
+#sumbit{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #594545;
+    color:white ;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+#sumbit:hover{
+background-color: antiquewhite;
+color: black;
+}
